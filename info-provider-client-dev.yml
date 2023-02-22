@@ -7,3 +7,7 @@ eureka:
 
 custom:
   item: this is remote repository config item
+
+feign:
+  hystrix:
+    enable: true
