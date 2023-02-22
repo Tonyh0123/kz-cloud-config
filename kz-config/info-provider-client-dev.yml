@@ -1,0 +1,13 @@
+server:
+  port: 18803
+
+spring:
+  application:
+    name: info-provider-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:18801/eureka
+  instance:
+    prefer-ip-address: true
