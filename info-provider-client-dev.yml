@@ -11,3 +11,11 @@ custom:
 feign:
   hystrix:
     enable: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
