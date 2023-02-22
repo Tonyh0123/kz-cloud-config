@@ -10,7 +10,7 @@ custom:
 
 feign:
   hystrix:
-    enable: true
+    enabled: true
 
 hystrix:
   command:
